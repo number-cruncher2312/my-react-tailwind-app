@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/React-Tailwind-practice/',  // ← THIS LINE IS CRUCIAL
+  base: '/my-react-tailwind-app/',  // ← Change this to match your ACTUAL repo name
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
